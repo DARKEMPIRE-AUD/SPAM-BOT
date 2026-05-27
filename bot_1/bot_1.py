@@ -61,7 +61,7 @@ class Client(discord.Client):
         if isinstance(message.channel, discord.DMChannel):
             if message.content.strip() == "!spam":
                 # Only allow authorized users
-                if message.author.id != OWNER_ID:
+                if message.author.id not in authorized_users:
                     await message.channel.send("You are not authorized to use this command.")
                     return
                 await message.channel.send("What message do you want to spam?")
