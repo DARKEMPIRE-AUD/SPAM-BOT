@@ -1,0 +1,13 @@
+{
+  "total_sent": 0,
+  "total_spam_messages": 10,
+  "history": [
+    {
+      "timestamp": "2026-05-27 12:48:00",
+      "user_id": "677714673251909652",
+      "message": "HI",
+      "count": 10,
+      "status": "Forbidden: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds"
+    }
+  ]
+}
